@@ -1,0 +1,12 @@
+scanf("%s",s)不读回车和空格
+
+gets读入空格 不读入回车
+gets(str) ：读行，且仅会覆盖读入。
+注意如果上一行结尾的换行符没有处理，则仅会读入空串。能不使用则尽量不使用
+gets 下多组数据的读法：while(gets(str) != NULL){}
+
+scanf("%c")记得getchar
+
+scanf("%[^\n]",str);//读入字符串直到换行符停止
+
+if(s[i]=='\n'||s[i]==EOF)break;//换行读入终止
